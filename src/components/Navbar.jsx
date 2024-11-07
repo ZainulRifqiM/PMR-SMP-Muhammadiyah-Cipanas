@@ -25,17 +25,17 @@ const Navbar = () => {
             >
               <img src={logo} className="h-14" alt="Flowbite Logo" />
               <div className="flex flex-col">
-                <span className="text-md md:text-xl font-semibold  text-primary">
+                <span className="text-sm  sm:text-lg font-semibold  text-primary">
                   Palang Merah Remaja
                 </span>
-                <span className="text-md md:text-xl font-semibold  text-textColor">
+                <span className="text-sm sm:text-lg font-semibold  text-textColor">
                   SMP Muhammadiyah Cipanas
                 </span>
               </div>
             </a>
           </div>
           <div className="flex items-center gap-8">
-            <ul className="md:flex space-x-12 hidden text-textColor font-medium">
+            <ul className="md:flex space-x-8 hidden text-textColor font-medium">
               {navItems.map(({ link, path }) => (
                 <Link
                   key={link}
@@ -45,7 +45,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-20}
                   duration={1000}
-                  className="block hover:text-secondary hover:font-semibold text-md font-normal cursor-pointer hover:-translate-y-1 transition-all duration-300"
+                  className="block hover:text-secondary hover:font-semibold text-sm font-normal cursor-pointer hover:-translate-y-1 transition-all duration-300"
                 >
                   {link}
                 </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
             smooth={true}
             offset={-80}
             duration={1000}
-            className="block text-labelColor font-semibold  hover:text-color7 cursor-pointer"
+            className="block text-labelColor font-medium hover:font-semibold  hover:text-secondary cursor-pointer"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {link}
