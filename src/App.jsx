@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Activity from "./components/Activity";
 import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Banner />
       <About />
+      <Activity />
     </>
   );
 }
