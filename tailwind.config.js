@@ -9,6 +9,9 @@ export default {
         textColor: "#565360",
         labelColor: "#908E9B",
       },
+      backgroundImage: {
+        "hero-pattern": "url('assets/bg-hero.png')",
+      },
     },
   },
   plugins: [],
