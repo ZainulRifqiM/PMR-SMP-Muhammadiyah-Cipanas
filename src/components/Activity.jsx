@@ -2,14 +2,16 @@ import logo from "../assets/logoPMI.png";
 import pelantikan1 from "../assets/pelantikan1.png";
 import pelantikan2 from "../assets/pelantikan2.png";
 import pelantikan3 from "../assets/pelantikan3.png";
+import agenda1 from "../assets/agenda1.png";
+import agenda2 from "../assets/agenda2.png";
 
 const Activity = () => {
   return (
     <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full mt-8  md:pb-0 mb-8  md:pt-16 md:mt-0 ">
-      <div>
+      <div className="flex md:flex-row flex-col md:space-x-4">
         {/* Bagian Kiri */}
         <div className="md:w-2/3 space-y-2">
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <h2 className="text-2xl font-semibold text-textColor">Kegiatan</h2>
             <div className="md:flex md:space-x-4 hidden text-base text-labelColor font-medium">
               <p>Jumbara</p>
@@ -59,16 +61,61 @@ const Activity = () => {
           </div>
         </div>
         {/* Bagian Kanan */}
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 space-y-2">
           {/* Proker */}
           <div>
             <h2 className="text-2xl font-semibold text-textColor">
               Program Kerja
             </h2>
           </div>
-          <div></div>
+          <div className="flex space-x-4">
+            <div className="bg-proker1 bg-cover bg-center bg-no-repeat h-60 w-48 content-end pb-2 pl-2">
+              {" "}
+              <p className="text-xs font-medium text-white">
+                Latihan Praktik (Lapangan)
+              </p>
+              <p className="text-xs font-light text-labelColor">Kamis 14:00</p>
+            </div>
+            <div className="bg-proker2 bg-cover bg-center bg-no-repeat h-60 w-48 content-end pb-2 pl-2">
+              {" "}
+              <p className="text-xs font-medium text-white">
+                Latihan Materi (Teori)
+              </p>
+              <p className="text-xs font-light text-labelColor">Kamis 14:00</p>
+            </div>
+          </div>
           {/* Agenda Mendatang */}
-          <div></div>
+          <div className="space-y-4">
+            <div className="mt-8">
+              <h2 className="text-2xl font-semibold text-textColor">
+                Agenda Mendatang
+              </h2>
+            </div>
+            <div className="space-y-8">
+              <div className="flex items-center space-x-4">
+                <img src={agenda1} alt="" />
+                <div>
+                  <p className="text-lg font-semibold text-textColor">
+                    Latihan Gabungan
+                  </p>
+                  <p className="text-base text-labelColor">
+                    Informasi Menyusul
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-4">
+                <img src={agenda2} alt="" />
+                <div>
+                  <p className="text-lg font-semibold text-textColor">
+                    Wisata Edukasi Alam
+                  </p>
+                  <p className="text-base text-labelColor">
+                    Informasi Menyusul
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

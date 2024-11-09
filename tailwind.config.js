@@ -11,6 +11,11 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('assets/bg-hero.png')",
+        proker1: "url('assets/proker1.png')",
+        proker2: "url('assets/proker2.png')",
+      },
+      height: {
+        24: "6rem",
       },
     },
   },
