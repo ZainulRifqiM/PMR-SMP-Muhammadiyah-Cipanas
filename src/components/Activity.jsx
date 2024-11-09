@@ -1,4 +1,4 @@
-import logo from "../assets/LogoPMI.png";
+import logo from "../assets/logoPMI.png";
 import pelantikan1 from "../assets/pelantikan1.png";
 import pelantikan2 from "../assets/pelantikan2.png";
 import pelantikan3 from "../assets/pelantikan3.png";
@@ -59,7 +59,17 @@ const Activity = () => {
           </div>
         </div>
         {/* Bagian Kanan */}
-        <div className="md:w-1/3"></div>
+        <div className="md:w-1/3">
+          {/* Proker */}
+          <div>
+            <h2 className="text-2xl font-semibold text-textColor">
+              Program Kerja
+            </h2>
+          </div>
+          <div></div>
+          {/* Agenda Mendatang */}
+          <div></div>
+        </div>
       </div>
     </div>
   );
