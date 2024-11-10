@@ -7,8 +7,8 @@ import agenda2 from "../assets/agenda2.png";
 
 const Activity = () => {
   return (
-    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full mt-8  md:pb-0 mb-8  md:pt-16 md:mt-0 ">
-      <div className="flex md:flex-row flex-col md:space-x-4">
+    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16   ">
+      <div className="flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
         {/* Bagian Kiri */}
         <div className="md:w-2/3 space-y-2">
           <div className="flex justify-between items-center">
@@ -91,9 +91,9 @@ const Activity = () => {
                 Agenda Mendatang
               </h2>
             </div>
-            <div className="space-y-8">
-              <div className="flex items-center space-x-4">
-                <img src={agenda1} alt="" />
+            <div className="space-y-4">
+              <div className="flex items-center space-x-4 border shadow-sm rounded-md p-4 box-border w-full h-24">
+                <img src={agenda1} alt="" className="w-16" />
                 <div>
                   <p className="text-lg font-semibold text-textColor">
                     Latihan Gabungan
@@ -103,8 +103,8 @@ const Activity = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <img src={agenda2} alt="" />
+              <div className="flex items-center space-x-4 border shadow-sm rounded-md p-4 box-border w-full h-24">
+                <img src={agenda2} alt="" className="w-16" />
                 <div>
                   <p className="text-lg font-semibold text-textColor">
                     Wisata Edukasi Alam

@@ -8,6 +8,7 @@ export default {
         secondary: "#2597A7",
         textColor: "#565360",
         labelColor: "#908E9B",
+        disabledColor: "#E1DFE9",
       },
       backgroundImage: {
         "hero-pattern": "url('assets/bg-hero.png')",

@@ -1,12 +1,12 @@
 import image from "../assets/tentang-kami.png";
 const About = () => {
   return (
-    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full mt-8  md:pb-0 mb-8  md:pt-16 md:mt-0 ">
+    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16  ">
       <div className="flex md:flex-row flex-col md:space-x-8 space-y-4 md:space-y-0">
         <div className="md:w-1/3">
           <img src={image} alt="" />
         </div>
-        <div className="md:w-2/3 md:space-y-8 space-y-8">
+        <div className="md:w-2/3 md:space-y-8 space-y-4">
           <div className="md:space-y-4 space-y-4">
             <div className="text-2xl font-semibold">
               <h2 className="text-textColor">Tentang Kami:</h2>
