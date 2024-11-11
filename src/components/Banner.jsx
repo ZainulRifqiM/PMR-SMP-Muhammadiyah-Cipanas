@@ -2,11 +2,11 @@ const Banner = () => {
   return (
     <div className="">
       <div
-        className="md:h-full max-w-screen md:mt-0  bg-hero-pattern bg-cover bg-center bg-no-repeat"
+        className="md:h-full h-screen max-w-screen md:mt-0  bg-hero-pattern bg-cover bg-center bg-no-repeat box-border"
         // style={{ backgroundImage: `url(${background})` }}
       >
         <div
-          className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-screen mt-24 pb-12 md:pb-0 content-center  pt-10 md:pt-16 md:mt-0 "
+          className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-screen   md:pb-0 content-center  md:pt-16 md:mt-0 "
           id="home"
         >
           <div className="md:w-1/2 space-y-8">

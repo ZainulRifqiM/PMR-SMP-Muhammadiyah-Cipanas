@@ -9,13 +9,13 @@ import { ServiceData } from "../constants";
 const Member = () => {
   return (
     <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16">
-      <div className="space-y-16">
+      <div className="md:space-y-16 space-y-8">
         <div className="md:w-4/5 text-center mx-auto">
-          <h2 className="text-2xl font-semibold text-textColor ">
+          <h2 className="text-lg md:text-2xl font-semibold text-textColor ">
             Kami memiliki anggota yang didedikasikan untuk mendukung SMP
             Muhammadiyah dalam bidang kesehatan.
           </h2>
-          <p className="text-sm text-labelColor font-medium">
+          <p className="text-xs md:text-sm text-labelColor font-medium">
             Dapatkan bantuan dari ekstrakurikuler Palang Merah Remaja yang
             berkomitmen dalam memberikan pertolongan pertama.
           </p>
