@@ -1,7 +1,10 @@
 import image from "../assets/tentang-kami.png";
 const About = () => {
   return (
-    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16  ">
+    <div
+      className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16  "
+      id="tentang"
+    >
       <div className="flex md:flex-row flex-col md:space-x-8 space-y-4 md:space-y-0">
         <div className="md:w-1/3">
           <img src={image} alt="" />

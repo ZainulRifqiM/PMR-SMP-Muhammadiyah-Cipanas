@@ -7,7 +7,10 @@ import agenda2 from "../assets/agenda2.png";
 
 const Activity = () => {
   return (
-    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16   ">
+    <div
+      className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16   "
+      id="kegiatan"
+    >
       <div className="flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
         {/* Bagian Kiri */}
         <div className="md:w-2/3 space-y-2">

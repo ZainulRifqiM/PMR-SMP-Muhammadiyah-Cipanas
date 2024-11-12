@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="">
+    <div className="" id="beranda">
       <div
         className="md:h-full h-screen max-w-screen md:mt-0  bg-hero-pattern bg-cover bg-center bg-no-repeat box-border"
         // style={{ backgroundImage: `url(${background})` }}
@@ -26,7 +26,9 @@ const Banner = () => {
             </div>
 
             <button className="bg-secondary hover:bg-teal-700 text-white font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-800 rounded ">
-              Bergabung Bersama Kami
+              <a href="https://forms.gle/dcZNpxXPruaUoPuP8" target="_blank">
+                Bergabung Bersama Kami
+              </a>
             </button>
           </div>
         </div>

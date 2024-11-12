@@ -8,7 +8,10 @@ import { FreeMode } from "swiper/modules";
 import { ServiceData } from "../constants";
 const Member = () => {
   return (
-    <div className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16">
+    <div
+      className=" md:px-8 p-4 max-w-screen-xl mx-auto  h-full md:h-full my-8 md:my-16"
+      id="anggota"
+    >
       <div className="md:space-y-16 space-y-8">
         <div className="md:w-4/5 text-center mx-auto">
           <h2 className="text-lg md:text-2xl font-semibold text-textColor ">

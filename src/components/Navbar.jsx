@@ -44,9 +44,9 @@ const Navbar = () => {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-20}
+                    offset={-90}
                     duration={1000}
-                    className="block hover:text-secondary hover:font-semibold text-sm font-normal cursor-pointer hover:-translate-y-1 transition-all duration-300"
+                    className="block hover:text-secondary hover:font-semibold text-sm font-normal cursor-pointer hover:-translate-y-1 transition-all duration-300 focus:underline"
                   >
                     {link}
                   </Link>

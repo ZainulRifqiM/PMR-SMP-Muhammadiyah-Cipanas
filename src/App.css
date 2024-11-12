@@ -6,3 +6,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
+.active {
+  color: #2597a7; /* Ubah sesuai dengan warna yang diinginkan */
+  font-weight: bold;
+  border-bottom: 2px solid #2597a7; /* Memberi garis bawah pada item aktif */
+}
